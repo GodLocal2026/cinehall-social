@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic'
+
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import ChannelRow from '@/components/ChannelRow'
@@ -6,8 +8,13 @@ import { CHANNELS } from '@/lib/channels'
 import { createClient } from '@/lib/supabase/server'
 
 export default async function HomePage() {
-  const supabase = await createClient()
-  const { data: { user } } = await supabase.auth.getUser()
+  let user = null
+  try {
+    const supabase = await createClient()
+    const { data } = await supabase.auth.getUser()
+    user = data.user
+  } catch {}
+
   const featured = CHANNELS[0]
   return (
     <main style={{ minHeight: '100vh', background: '#0a0a0f' }}>

@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic'
+
 import { redirect } from 'next/navigation'
 import Navbar from '@/components/Navbar'
 import PostCard from '@/components/PostCard'
@@ -30,7 +32,7 @@ export default async function FeedPage() {
         ) : (
           <div style={{ textAlign: 'center', padding: '80px 0', color: '#6b7280' }}>
             <div style={{ fontSize: '3rem', marginBottom: 16 }}>📺</div>
-            <p>No posts yet. Be the first to share a video!</p>
+            <p>No posts yet. Be the first to share!</p>
           </div>
         )}
       </div>
