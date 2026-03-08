@@ -1,12 +1,12 @@
-import { createClient } from '@/lib/supabase/server'
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import ChannelRow from '@/components/ChannelRow'
 import NetflixPromo from '@/components/NetflixPromo'
 import { CHANNELS } from '@/lib/channels'
+import { createClient } from '@/lib/supabase/server'
 
 export default async function HomePage() {
-  const supabase = createClient()
+  const supabase = await createClient()
   const { data: { user } } = await supabase.auth.getUser()
   const featured = CHANNELS[0]
   return (

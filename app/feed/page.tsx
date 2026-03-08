@@ -1,11 +1,11 @@
-import { createClient } from '@/lib/supabase/server'
 import { redirect } from 'next/navigation'
 import Navbar from '@/components/Navbar'
 import PostCard from '@/components/PostCard'
 import Link from 'next/link'
+import { createClient } from '@/lib/supabase/server'
 
 export default async function FeedPage() {
-  const supabase = createClient()
+  const supabase = await createClient()
   const { data: { user } } = await supabase.auth.getUser()
   if (!user) redirect('/auth/login')
 
