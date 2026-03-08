@@ -1,0 +1,17 @@
+export const CHANNELS = [
+  { id: 'UCbfYPyITQ-7l4upoX8nvctg', name: '3Blue1Brown', category: 'ai', tag: 'AI', desc: 'Visual math and neural networks — best channel for understanding how GPT works inside.', thumb: 'https://i.ytimg.com/vi/aircAruvnKk/maxresdefault.jpg' },
+  { id: 'UCWX3yGbODI3HjMdAqEDzJSA', name: 'Andrej Karpathy', category: 'ai', tag: 'AI', desc: 'Former Tesla AI Director. Breaks down GPT and backprop in practice with code.', thumb: 'https://i.ytimg.com/vi/VMj-3S1tku0/maxresdefault.jpg' },
+  { id: 'UCZHmQk67mSJgfCCTn7xBfew', name: 'Yannic Kilcher', category: 'ai', tag: 'AI', desc: 'Deep dives into AI papers: GPT, DALL-E, Sora, and everything new from ArXiv.', thumb: 'https://i.ytimg.com/vi/5p248yoa3oE/maxresdefault.jpg' },
+  { id: 'UCnUYZLuoy1rq1aVMwx4aTzw', name: 'Two Minute Papers', category: 'ai', tag: 'AI', desc: 'Latest AI research in brief. One paper per video.', thumb: 'https://i.ytimg.com/vi/0N-SiP_6m0s/maxresdefault.jpg' },
+  { id: 'UCi0d0_oakbl4TF12kQDegdw', name: 'Lex Fridman', category: 'ai', tag: 'AI', desc: 'Podcasts with top AI scientists: Musk, Altman, Hinton and others.', thumb: 'https://i.ytimg.com/vi/ugvHCXCOmm4/maxresdefault.jpg' },
+  { id: 'UCzWQYUVCpZqtN93H8RR44Qw', name: 'Sentdex', category: 'ai', tag: 'AI', desc: 'Practical ML on Python: PyTorch, TensorFlow, reinforcement learning.', thumb: 'https://i.ytimg.com/vi/wQ8BIBpya2k/maxresdefault.jpg' },
+  { id: 'UC_x5XG1OV2P6uZZ5FSM9Ttw', name: 'Google DeepMind', category: 'ai', tag: 'AI', desc: 'Gemini, AlphaFold, AGI research.', thumb: 'https://i.ytimg.com/vi/7Pq-S557XQU/maxresdefault.jpg' },
+  { id: 'UCbmNph6atAoGfqLoCL_duAg', name: 'Computerphile', category: 'ai', tag: 'AI', desc: 'From LLMs to encryption — accessible and deep.', thumb: 'https://i.ytimg.com/vi/aircAruvnKk/maxresdefault.jpg' },
+  { id: 'UC8butISFwT-Wl7EV0hUK0BQ', name: 'freeCodeCamp', category: 'tech', tag: 'CODE', desc: 'Full courses: Python, JS, ML, Web — free.', thumb: 'https://i.ytimg.com/vi/rfscVS0vtbw/maxresdefault.jpg' },
+  { id: 'UCVhQ2NnY5Rskt6UjCUkJ_DA', name: 'Tech With Tim', category: 'tech', tag: 'CODE', desc: 'Python, AI, GameDev — practical and clear.', thumb: 'https://i.ytimg.com/vi/t8pPdKYpowI/maxresdefault.jpg' },
+  { id: 'UCddiUEpeqJcYeBxX1IVBKvQ', name: 'Fireship', category: 'tech', tag: 'CODE', desc: '100 seconds on any technology. React, Next.js, Rust, Go.', thumb: 'https://i.ytimg.com/vi/DHjqpvDnNGE/maxresdefault.jpg' },
+  { id: 'UClb90NQgewJrgBfMhFc4CJg', name: 'NetworkChuck', category: 'tech', tag: 'TECH', desc: 'Networking, cybersecurity, Linux, Docker.', thumb: 'https://i.ytimg.com/vi/qiQR5rTSshw/maxresdefault.jpg' },
+  { id: 'UCoxcjq-8xIDTYp3uz647V5A', name: 'Numberphile', category: 'science', tag: 'MATH', desc: 'Fascinating stories about numbers and math discoveries.', thumb: 'https://i.ytimg.com/vi/aircAruvnKk/maxresdefault.jpg' },
+  { id: 'UC9-y-6csu5WGm29I7JiwpnA', name: 'Kurzgesagt', category: 'science', tag: 'SCI', desc: 'Animated explanations of science, universe, biology and the future.', thumb: 'https://i.ytimg.com/vi/1-NxodiGPCU/maxresdefault.jpg' },
+  { id: 'UCHnyfMqiRRG1u-2MsSQLbXA', name: 'Veritasium', category: 'science', tag: 'SCI', desc: 'Physics and natural phenomena — deep and visual.', thumb: 'https://i.ytimg.com/vi/HeQX2HjkcNo/maxresdefault.jpg' },
+]
